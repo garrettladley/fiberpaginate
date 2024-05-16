@@ -41,6 +41,7 @@ go get -u github.com/garrettladley/fiberpaginate
 | LimitKey              | `string`     | LimitKey is the key for the limit number in the query string.                                                                                     | `"limit"`                  |
 | DefaultLimit        | `int`                  | DefaultLimit is the default limit to use when not provided as a query paramater in the url. If the limit is less than 1, it will be set to the default limit, 10.                                                                  | `10`                  |
 
+
 ## Example
 
 ```go
